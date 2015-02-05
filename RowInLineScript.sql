@@ -1,3 +1,6 @@
+IF OBJECT_ID(N'tempdb..#Table') IS NOT NULL
+DROP TABLE #Table
+
 CREATE TABLE #Table(
 	[ID] [int] NOT NULL,
 	[Code] [nvarchar](2) NULL
